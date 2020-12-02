@@ -1,0 +1,16 @@
+.button {
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  background-color: #1F75FE;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  &:hover {
+    background-color: rgba($color:#1F75FE, $alpha: 0.95);
+  }
+  &:active {
+    background-color: rgba($color: #1F75FE, $alpha: 0.8);
+  }
+}

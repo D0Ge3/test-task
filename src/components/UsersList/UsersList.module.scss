@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+}
+
+.cell {
+  border-bottom: 3px solid #F5F5F5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  &_id {
+    width: 30%;
+  }
+}
+
+.loader_wrapper {
+  width: 100%;
+}
+
+.loader {
+  margin-left: calc(50% - 40px);
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}  
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.thead {
+  text-align: left;
+}
+
+.sort_btn {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}

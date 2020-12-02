@@ -1,0 +1,13 @@
+.alert {
+  position: fixed;
+  top: 70px;
+  right: 15px;
+  width: 170px;
+  height: 50px;
+  background-color: rgba($color: #a11313, $alpha: 0.7);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  white-space: nowrap;
+}

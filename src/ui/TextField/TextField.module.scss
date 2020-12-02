@@ -1,0 +1,16 @@
+.field {
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid #E6E7EA;
+  background-color:#E6E7EA;
+  outline: none;
+  padding: 0 10px;
+  width: 100%;
+  &:hover {
+    background-color: rgba($color: #E6E7EA, $alpha: 0.7);
+  }
+  &:focus {
+    background-color: rgba($color: #E6E7EA, $alpha: 0.6);
+    border: 2px solid #cbcbce;
+  }
+}

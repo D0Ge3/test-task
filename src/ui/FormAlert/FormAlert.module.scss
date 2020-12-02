@@ -1,0 +1,12 @@
+.alert {
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  &_error {
+    color: red;
+  }
+  &_success {
+    color: green;
+  }
+}
